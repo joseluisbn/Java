@@ -14,7 +14,7 @@ public static void main(String[] args) {
         
         //Cadena de caracteres
         
-        string texto = "cadena";
+        String texto = "cadena";
         
         //Verdadero o falso
         
