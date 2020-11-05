@@ -5,7 +5,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        boolean atsign = false;
+        int atsign = 0;
+        boolean dot = false;
 
         Scanner input = new Scanner(System.in);
 
@@ -18,11 +19,14 @@ public class Main {
         for (int i = 0; i<email.length(); i++)
         {
             if (email.charAt(i)=='@'){
-                atsign = true;
+                atsign++;
+            }
+            if (email.charAt(i)=='.'){
+                dot = true;
             }
         }
 
-        if (atsign == true){
+        if (atsign == 1 && dot == true){
 
             System.out.println("El email introducido es válido");
         }
