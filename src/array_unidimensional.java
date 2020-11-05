@@ -10,7 +10,7 @@ public class Main {
         matriz1[1] = 2;
         matriz1[2] = 1;
 
-        int [] matriz2 = {3, 2, 1};
+        int [] matriz2 = {3, 2, 1}; //Declaración simplificada o implícita de un array
 
         //Imprimimos una posición de la matriz
         System.out.println(matriz1[1]);
