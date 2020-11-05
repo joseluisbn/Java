@@ -20,7 +20,6 @@ public class Main {
             if (email.charAt(i)=='@'){
                 atsign = true;
             }
-            System.out.println("Ejemplo de bucle for");
         }
 
         if (atsign == true){
