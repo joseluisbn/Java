@@ -14,5 +14,16 @@ public class Main {
                 System.out.print(matriz[i][j]+ " ");
             }
         }
+
+        System.out.println(); //marcando espacio entre columnas
+
+        //imprimiendo con for mejorado
+
+        for (int[]fila:matriz){
+            System.out.println();
+            for (int col:fila){
+                System.out.print(col + " ");
+            }
+        }
     }
 }
