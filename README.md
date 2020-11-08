@@ -8,4 +8,4 @@ Puedes hacer *fork* pulsando en el botón homónimo de la esquina superior derec
 
 Dentro de la carpeta src están los recursos (sources) con el código para cada aplicación.
 
-Los archivos .java que están sueltos no requieren de más archivos que él mismo, mientras que los que figuran en otra carpeta (por ejemplo "creacion_clases"), requieren de todo su contenido ya que se trata de una explicación de POO.
+Los archivos *.java* que están sueltos no requieren de más archivos que él mismo, mientras que los que figuran en otra carpeta (por ejemplo "creacion_clases"), requieren de todo su contenido ya que se trata de una explicación de POO.
