@@ -1,7 +1,7 @@
 //Creación de clase.
 
 public class Computadora {
-    //Los atributos siempre tienen que ser privados
+    //Los atributos siempre tienen que ser privados (encapsulación)
     private String nombre = "";
     private int hd = 0;
     private int memoria =0;
