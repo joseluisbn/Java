@@ -1,6 +1,6 @@
 # Java SE
 
-Proyecto de aprendizaje de Java SE con ejemplos de código y ejercicios de complejidad gradual.
+Proyecto de aprendizaje de Java SE (Standard Edition) con ejemplos de código y ejercicios de complejidad gradual.
 
 Tanto si eres profesor como si estás aprendiendo, siéntete libre de utilizar este contenido.
 
