@@ -1,4 +1,5 @@
 public class Main {
+    
     public static void main(String[] args) {
 
         //Refundición: cuando queremos cambiar de un tipo de dato a otro
