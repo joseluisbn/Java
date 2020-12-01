@@ -13,8 +13,6 @@ public class Main {
 
         String cadena = "Prueba de texto con ficheros de texto";
 
-        //Opción 1: Caracteres
-
         // Cadena transformada a caracteres sueltos
 
         char[] arrayCadena = cadena.toCharArray();
