@@ -4,9 +4,9 @@ public class Main {
 
         int opcion;
 
-        opcion = 2;
+        option = 2;
 
-        switch (opcion){
+        switch (option){
 
             case 1:
                 System.out.println("Has elegido la opción 1");
