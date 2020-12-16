@@ -6,7 +6,7 @@ public class Main {
 
         do
         {
-            System.out.println("Este es un bucle while");
+            System.out.println("Esto es un bucle while");
         } while (a == 6);
 
             /*Este bucle realiza la acción al menos una vez
