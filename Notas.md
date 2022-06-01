@@ -48,11 +48,11 @@ public class Bicicleta {
 Entonces, si ya no podemos acceder a la propiedad desde fuera de la clase (puesto que no está visible), ¿cómo podemos ver sus atributos? A través de los métodos. A través de ellos, las clases podrán interactuar entre sí.
 
 
-### Getters y setters
+#### Getters y setters
 
 Al tener las propiedades encapsuladas, para acceder a ellos desde fuera de la clase empleamos los métodos get y set (getters y setters).
 
-- Getters o captadores: Se encarga de captar o proporcionar el valor de una propiedad.
+- *Getters* o captadores: Se encarga de captar o proporcionar el valor de una propiedad.
 
 Volviendo a nuestra bicicleta:
 
@@ -67,7 +67,7 @@ public int getRuedas(){
 System.out.println(getRuedas())
 ```
 
-- Setters o definidores: Se encarga de definir o establecer el valor de una propiedad.
+- *Setters* o definidores: Se encarga de definir o establecer el valor de una propiedad.
 
 ```java
 // SETTER (no devuelve dato)
@@ -80,7 +80,19 @@ Por convención, los getters y los setters siempre van o antes de los métodos p
 
 ### Herencia
 
+Este mecanismo permite reutilizar clases. La nueva clase extiende la funcionalidad de una clase existente. De este modo no es necesario reescribir el código asociado a la nueva clase.
 
+La nueva clase se denomina **subclase**, puede tener atributos y métodos propios, que no existían en la clase original. A su vez, los atributos que heredan de la clase original (esta clase original se denomina **superclase**).
+
+Imaginemos una clase hijo, que hereda de la clase madre.
+
+```java
+public class Hijo extends Madre{
+super(id, apellido);
+this.nombre = nombre;
+this.altura = altura;
+}
+```
 
 ### Modificadores de acceso
 
