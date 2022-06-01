@@ -94,6 +94,10 @@ this.altura = altura;
 }
 ```
 
+### Polimorfismo
+
+A partir de un objeto que pertenece a una clase madre
+
 ### Modificadores de acceso
 
 Ya lo vimos en las funciones.
