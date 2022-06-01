@@ -1,6 +1,14 @@
 ## POO
 
+1. Abstracción
+2. Encapsulamiento
+3. Polimorfismo
+4. Herencia
+
 Método constructor: es un método especial que se encarga de dar un estado inicial al objeto.
+
+- Constructor vacío.
+- Constructor con parámetros. *this*
 
 Crear objeto (instanciar clase)
 
@@ -40,7 +48,7 @@ public class Bicicleta {
 Entonces, si ya no podemos acceder a la propiedad desde fuera de la clase (puesto que no está visible), ¿cómo podemos ver sus atributos? A través de los métodos. A través de ellos, las clases podrán interactuar entre sí.
 
 
-### Get y set
+### Getters y setters
 
 Al tener las propiedades encapsuladas, para acceder a ellos desde fuera de la clase empleamos los métodos get y set (getters y setters).
 
@@ -63,10 +71,16 @@ System.out.println(getRuedas())
 
 ```java
 // SETTER (no devuelve dato)
-public void colorBicicleta(){
+public void setColor(){
     color = "verde";
 }
 ```
+
+Por convención, los getters y los setters siempre van o antes de los métodos por defecto o después de los constructores.
+
+### Herencia
+
+
 
 ### Modificadores de acceso
 
