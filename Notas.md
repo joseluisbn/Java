@@ -1,7 +1,7 @@
-## POO
+## POO (WIP)
 
 1. Abstracción
-2. Encapsulamiento
+2. Encapsulación
 3. Polimorfismo
 4. Herencia
 
@@ -96,18 +96,41 @@ this.altura = altura;
 
 ### Polimorfismo
 
-A partir de un objeto que pertenece a una clase madre
+A partir de un objeto que pertenece a una clase madre, puedo tener objetos creados por clases hijas.
 
 
 ```java
 
 ```
 
+### Clases abstractas
 
-### Modificadores de acceso
+- Una clase abstracta no puede ser instanciada. Al menos uno de sus métodos es abstracto, es decir, vamos a tener la definición del método, pero no se va a decir cómo funciona.
+- Sus niveles de acceso deben ser public o protected (nunca private).
+- Cuando se usan clases abstractas, una clase no puede heredar de varias clases abstractas a la vez (al contrario de las interfaces).
+
+
+```java
+public abstract class FiguraGeometrica{
+    protected double x;
+    protected double y;
+    
+    public abstract double calculoArea(); // No se implementa nada.
+}
+```
+
+Se pueden hacer constructores, pero deben tener el nivel de acceso de protected.
+
+Las clases abstractas se unan cuando se desea definir una abstracción que englobe objetos de distintos tipos y queremos utilizar el polimorfismo.
+
+### Modificadores de acceso (¿Explicar en encapsulamiento?)
 
 Ya lo vimos en las funciones.
 
-- **Private**
-- **Public**
-- **Protected**
+- ***Public***: Puede ser utilizado desde cualquier clase y posición dentro de la aplicación.
+- ***Private***: Se puede utilizar únicamente dentro de la clase en la que se ha declarado.
+- ***Protected***: Puede utilizarse tanto dentro de la propia clase como las clases hijas, en caso de herencia.
+
+Por defecto (buena práctica), todos los atributos de una clase se declaran como privados. Para poder modificarlos, utilizamos los getters y los setters.
+
+## Bibliografía / Webgrafía
