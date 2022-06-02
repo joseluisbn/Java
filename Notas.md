@@ -98,6 +98,12 @@ this.altura = altura;
 
 A partir de un objeto que pertenece a una clase madre
 
+
+```java
+
+```
+
+
 ### Modificadores de acceso
 
 Ya lo vimos en las funciones.
