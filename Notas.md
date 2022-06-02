@@ -1,4 +1,4 @@
-## POO (WIP)
+## POO (*WIP*)
 
 1. Abstracción
 2. Encapsulación
@@ -122,6 +122,19 @@ public abstract class FiguraGeometrica{
 Se pueden hacer constructores, pero deben tener el nivel de acceso de protected.
 
 Las clases abstractas se unan cuando se desea definir una abstracción que englobe objetos de distintos tipos y queremos utilizar el polimorfismo.
+
+Para implementar los métodos abstractos en una clase hija, utilizamos *@Override* (sobreescritura de método).
+
+
+```java
+public class Triangulo extends Figura {
+    
+    @Override
+    public double calculoArea() {
+    // Implementación
+    }
+}
+```
 
 ### Modificadores de acceso (¿Explicar en encapsulamiento?)
 
