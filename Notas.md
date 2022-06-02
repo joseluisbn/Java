@@ -136,6 +136,39 @@ public class Triangulo extends Figura {
 }
 ```
 
+### Interfaces
+
+- Las interfaces son una colección de métodos abstractos con atributos constantes.
+- A diferencia de las clases abstractas, una interfaz puede implementar o extender otras interfaces (herencia múltiple).
+
+
+```java
+public interface FiguraGeometrica{
+    
+    public double calculoArea();
+}
+```
+
+A la hora de crear una "clase heredada" ya no utilizamos la palabra reservada extends, sino *implements*
+
+```java
+public class Triangulo implements FiguraGeometrica {
+    
+    @Override
+    public double calculoArea() {
+    // Implementación
+    }
+}
+```
+
+Si queremos añadir varias interfaces, las enumeramos separadas por coma.
+
+
+```java
+public class Triangulo implements FiguraGeometrica, OtraInterfaz, OtraInterfaz {
+}
+```
+
 ### Modificadores de acceso (¿Explicar en encapsulamiento?)
 
 Ya lo vimos en las funciones.
